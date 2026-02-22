@@ -1,0 +1,5 @@
+# Ignore File For SOONG 
+#
+# This file is symlinked to projects in the kernel_platform workspace.
+# Without this, Soong module resolver sees duplicate namespaces
+# and reports conflicts between eg. kernel_platform clang and AOSP clang.
